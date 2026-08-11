@@ -14,5 +14,10 @@ pipeline {
                 echo 'Running tests...'
             }
         }
+        stage('Run Application') {
+            steps {
+                sh 'python app.py'
+            }    
+        }
     }
 }
