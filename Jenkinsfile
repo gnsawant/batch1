@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'master',
-                    url: 'https://github.com/gnsawant/batch1.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo 'Building application...'
@@ -19,7 +12,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'python --version'
             }
         }
     }
