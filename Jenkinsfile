@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/your-username/my-python-app.git'
+                    url: 'https://github.com/gnsawant/batch1.git'
             }
         }
 
