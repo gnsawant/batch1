@@ -1,4 +1,4 @@
-pipeline {
+' pipeline {
     agent any
 
     stages {
@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Run Application') {
             steps {
-                bat 'python app.py'
+                bat '"C:\Users\geeta\AppData\Local\Programs\Python\Python310\python.exe" app.py'
             }    
         }
     }
