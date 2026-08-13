@@ -3,5 +3,5 @@ We should worship Lord Krishna.
 Lord Krishna is very very merciful
 Jai Jagannath , chakka nain
 Lord of Universe
-
+ bat '"C:\Users\geeta\AppData\Local\Programs\Python\Python310\python.exe" app.py'
 
