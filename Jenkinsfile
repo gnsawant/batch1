@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Run Application') {
             steps {
-                bat '"C:\Users\geeta\AppData\Local\Programs\Python\Python310\python.exe" app.py'
+                echo 'run application'
             }    
         }
     }
