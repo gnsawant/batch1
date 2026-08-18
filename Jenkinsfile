@@ -14,6 +14,11 @@ pipeline {
                 echo 'Running tests...'
             }
         }
+        stage('Test1') {
+            steps {
+                echo 'Running tests1...'
+            }
+        }
         stage('Run Application') {
             steps {
                 echo 'run application'
